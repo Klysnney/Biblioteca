@@ -25,7 +25,7 @@ Certifique-se de ter um servidor MySQL em execução em sua máquina ou em um lo
 ```python
 DEBUG = True
 USERNAME = "root"
-PASSWORD = "Everton12"
+PASSWORD = "***"
 SERVER = "localhost"
 DB = "biblioteca"
 SQLALCHEMY_DATABASE_URI = f'mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
